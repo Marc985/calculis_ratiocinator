@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8375851-4180-42fa-a0bc-c6eb045c2798" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/HEI/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/HEI/affirmation/Mensonge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/HEI/affirmation/Verite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/HEI/composition/CompositionDeDeuxAffirmations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/HEI/conjonction/ConjonctionDeCoordination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/HEI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HEI/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -45,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/marc/HEI/examen/web3/backend",
     "node.js.detected.package.eslint": "true",
@@ -92,7 +90,7 @@
       <updated>1717741632711</updated>
       <workItem from="1717741634000" duration="232000" />
       <workItem from="1717741946016" duration="497000" />
-      <workItem from="1717751340578" duration="1725000" />
+      <workItem from="1717751340578" duration="11993000" />
     </task>
     <servers />
   </component>
