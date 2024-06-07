@@ -13,8 +13,8 @@ public class Main {
         Mensonge mensonge1=new Mensonge("Lou est pauvre");
         Affirmation affirmation1=new Affirmation("Lou est genereux");
         CompositionDeDeuxAffirmations compositionDeDeuxAffirmations=new
-                CompositionDeDeuxAffirmations(verite1,
-                ConjonctionDeCoordination.donc,mensonge1);
+                CompositionDeDeuxAffirmations(mensonge1,
+                ConjonctionDeCoordination.et,affirmation1);
         System.out.println(compositionDeDeuxAffirmations.vraiOuFaux());
     }
 }

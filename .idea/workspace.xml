@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8375851-4180-42fa-a0bc-c6eb045c2798" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/HEI/affirmation/Mensonge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/HEI/affirmation/Verite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/HEI/composition/CompositionDeDeuxAffirmations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/HEI/conjonction/ConjonctionDeCoordination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/HEI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HEI/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/HEI/affirmation/Affirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HEI/affirmation/Affirmation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/HEI/composition/CompositionDeDeuxAffirmations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HEI/composition/CompositionDeDeuxAffirmations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,7 @@
       <updated>1717741632711</updated>
       <workItem from="1717741634000" duration="232000" />
       <workItem from="1717741946016" duration="497000" />
-      <workItem from="1717751340578" duration="11993000" />
+      <workItem from="1717751340578" duration="13441000" />
     </task>
     <servers />
   </component>

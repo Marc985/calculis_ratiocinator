@@ -17,18 +17,20 @@ public class CompositionDeDeuxAffirmations {
 
     }
 
-    public boolean vraiOuFaux() {
-        boolean premiereVraie = premiereAffirmation.getVraiOuFaux();
-        boolean deuxiemeVraie = deuxiemeAffirmation.getVraiOuFaux();
+
+    public String vraiOuFaux() {
+        boolean premiereVraie = premiereAffirmation.getVraiOuFaux().equals("vrai");
+        boolean deuxiemeVraie = deuxiemeAffirmation.getVraiOuFaux().equals("vrai");
+
 
         if (conjonctionDeCoordination == ConjonctionDeCoordination.et) {
-            return premiereVraie && deuxiemeVraie;
+            return premiereVraie && deuxiemeVraie?"vrai":"faux";
         } else if (conjonctionDeCoordination == ConjonctionDeCoordination.ou) {
-            return premiereVraie || deuxiemeVraie;
+            return premiereVraie || deuxiemeVraie?"vrai":"faux";
         } else if (conjonctionDeCoordination == ConjonctionDeCoordination.donc) {
-            return !premiereVraie || deuxiemeVraie;
-        } else {
-            return false;
+            return !premiereVraie || deuxiemeVraie?"vrai":"faux";
         }
+        return "jenesaispas";
     }
+
 }

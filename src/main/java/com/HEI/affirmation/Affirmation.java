@@ -1,20 +1,21 @@
 package com.HEI.affirmation;
 
 public sealed class Affirmation permits Mensonge,Verite{
-  private   String contenu;
-   private boolean vraiOuFaux;
+  private  String contenu;
+   private String vraiOuFaux;
    public void setVrai(){
-        this.vraiOuFaux=true;
+        this.vraiOuFaux="vrai";
     }
-   public   void setFausse(){
-        this.vraiOuFaux=false;
+   public void setFausse(){
+        this.vraiOuFaux="faux";
     }
-    public boolean getVraiOuFaux(){
+    public String getVraiOuFaux(){
        return this.vraiOuFaux;
     }
 
     public Affirmation(String contenu){
         this.contenu=contenu;
+        this.vraiOuFaux="jenesaispas";
     }
 
 
