@@ -12,10 +12,11 @@ public class Main {
         Verité verité=new Verité("lou est beau");
         Incertitude affirmation=new Incertitude("Lou est genereux");
         Mensonge mensonge=new Mensonge("lou est pauvre");
-     ValeurDeVerité valeurDeVerité1=  verité.ou(affirmation).et(mensonge).valeurDeVerité();
+     ValeurDeVerité valeurDeVerité1=  verité.ou(affirmation).donc(mensonge).valeurDeVerité();
         System.out.println(valeurDeVerité1);
 
         System.out.println(mensonge.ou(affirmation).valeurDeVerité());
+
 
 
 
