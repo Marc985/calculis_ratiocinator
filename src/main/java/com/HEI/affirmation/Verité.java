@@ -1,14 +1,12 @@
 package com.HEI.affirmation;
 
-public final class Mensonge extends Affirmation {
-
-
-    public Mensonge(String contenu) {
+public final class Verité extends Affirmation {
+    public Verité(String contenu) {
         super(contenu);
     }
 
     @Override
     public ValeurDeVerité valeurDeVerité() {
-        return ValeurDeVerité.FAUSSE;
+        return ValeurDeVerité.VRAI;
     }
 }

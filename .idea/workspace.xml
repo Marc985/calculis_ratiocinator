@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8375851-4180-42fa-a0bc-c6eb045c2798" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/HEI/composition/Compositioins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/HEI/affirmation/AffirmationTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/HEI/affirmation/ValeurDeVerité.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/HEI/affirmation/Verité.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/HEI/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HEI/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/HEI/composition/CompositionDeDeuxAffirmations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AffirmationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AffirmationsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/HEI/affirmation/Affirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HEI/affirmation/Affirmation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/HEI/affirmation/Mensonge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/HEI/affirmation/Mensonge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/HEI/affirmation/Verite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/HEI/composition/Compositioins.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/HEI/conjonction/ConjonctionDeCoordination.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AffirmationsTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,6 +44,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Affirmation.executor": "Run",
     "Application.Main.executor": "Run",
     "JUnit.AffirmationsTest.executor": "Run",
     "JUnit.Test.executor": "Run",
@@ -46,7 +53,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/marc/HEI/examen/web3/backend",
+    "last_opened_file_path": "/home/marc/HEI/examen/examp-projet1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,7 +65,33 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="AffirmationTemplate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.HEI.affirmation.AffirmationTemplate" />
+      <module name="examp-projet1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.HEI.affirmation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.HEI.Main" />
+      <module name="examp-projet1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.HEI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AffirmationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="examp-projet1" />
       <option name="PACKAGE_NAME" value="" />
@@ -70,6 +103,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.AffirmationTemplate" />
         <item itemvalue="JUnit.AffirmationsTest" />
       </list>
     </recent_temporary>
@@ -91,11 +126,32 @@
       <updated>1717741632711</updated>
       <workItem from="1717741634000" duration="232000" />
       <workItem from="1717741946016" duration="497000" />
-      <workItem from="1717751340578" duration="15402000" />
+      <workItem from="1717751340578" duration="17810000" />
+      <workItem from="1717770987397" duration="961000" />
+      <workItem from="1717782066410" duration="49000" />
+      <workItem from="1717949159723" duration="934000" />
+      <workItem from="1718169414075" duration="3962000" />
+      <workItem from="1718201784077" duration="29000" />
+      <workItem from="1724943018699" duration="5228000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/HEI/affirmation/AffirmationTemplate.java</url>
+          <line>34</line>
+          <properties class="com.HEI.affirmation.AffirmationTemplate" method="donc">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
