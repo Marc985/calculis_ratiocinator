@@ -16,6 +16,8 @@ public class Main {
         System.out.println(valeurDeVerité1);
 
         System.out.println(mensonge.ou(affirmation).valeurDeVerité());
+        System.out.println(mensonge.et(affirmation).valeurDeVerité());
+        System.out.println(mensonge.donc(affirmation).valeurDeVerité());
 
 
 
