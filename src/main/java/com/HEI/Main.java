@@ -13,7 +13,7 @@ public class Main {
 	Incertitude affirmation = new Incertitude("Certaines personnes préfèrent le ciel bleu pour les activités de plein air.");
 	Mensonge mensonge = new Mensonge("Le ciel est toujours bleu, même lorsqu'il pleut.");
 	
-	ValeurDeVerité valeurDeVerité1 = verite.ou(affirmation).donc(mensonge).valeur();
+	
     	 ValeurDeVerité valeurDeVerité1=  verité.ou(affirmation).donc(mensonge).valeurDeVerité();
         System.out.println(valeurDeVerité1);
 
